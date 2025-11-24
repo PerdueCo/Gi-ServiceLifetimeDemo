@@ -46,15 +46,15 @@ Great for lightweight, stateless, and short-lived work.
 
 ***Scoped***
 
-One instance is created per HTTP request.
+-- One instance is created per HTTP request.
 
-Commonly used with database repositories, unit-of-work patterns, and request-level state.
+-- Commonly used with database repositories, unit-of-work patterns, and request-level state.
 
 ***Singleton***
 
-Only one instance is ever created—for the entire application lifetime.
+-- Only one instance is ever created—for the entire application lifetime.
 
-Ideal for shared, long-lived resources like caching, configuration, logging, or static reference data.
+-- Ideal for shared, long-lived resources like caching, configuration, logging, or static reference data.
 
 In this demo, each service returns a unique GUID so you can visually see which lifetime persists and which does not.
 
@@ -107,13 +107,19 @@ docker build -t servicelifetimedemo .
 
 Run the container:
 
+```
+
 docker run -p 5000:8080 servicelifetimedemo
 
+```
 
 Open your browser and visit:
 
+```
+
 http://localhost:5000/api/lifetime
 
+```
 
 That’s it. No complicated setup—just build, run, and test.
 Everything is clean, separated, and easy to follow.
