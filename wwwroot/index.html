@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>GUID Lifetime Demo</title>
+
+    <!-- Simple styling -->
+    <style>
+        body {
+            font-family: Arial;
+            margin: 20px;
+        }
+
+        .card {
+            border: 1px solid #ccc;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 8px;
+        }
+
+        .title {
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>.NET DI Lifetime Demo</h1>
+    <p>Click the button to call the API and see how the GUIDs behave.</p>
+
+    <button onclick="callApi()">Call API</button>
+
+    <div id="results"></div>
+
+    <script>
+async function callApi() {
+    // Call your backend API
+    const response = await fetch("/api/GuidDemo");
+    const data = await response.json();
+
+    // Where the output will go
+    const container = document.getElementById("results");
+
+    // Build a new result card
+    const card = document.createElement("div");
+    card.className = "card";
+    card.innerHTML = `
+        <div class="title">API Call @ ${new Date().toLocaleTimeString()}</div>
+        <p><b>Transient:</b> ${data.transient}</p>
+        <p><b>Scoped:</b> ${data.scoped}</p>
+        <p><b>Singleton:</b> ${data.singleton}</p>
+    `;
+
+    // Add result to top
+    container.prepend(card);
+}
+    </script>
+
+</body>
+</html>
