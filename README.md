@@ -40,9 +40,9 @@ It's intentionally simple—perfect for interviews, learning sessions, or teachi
 
 ***Transient***
 
-A brand-new instance is created every time it’s requested.
+- A brand-new instance is created every time it’s requested.
 
-Great for lightweight, stateless, and short-lived work.
+- Great for lightweight, stateless, and short-lived work.
 
 ***Scoped***
 
