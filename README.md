@@ -18,8 +18,6 @@ If you’ve ever wondered:
 
 This repo breaks it all down step by step, using clean code, simple examples, and an easy-to-follow structure.
 
----
-
 # 🎯 Project Purpose
 
 This project helps you demonstrate your understanding of:
@@ -58,7 +56,6 @@ In this demo, each service returns a unique GUID so you can visually see which l
 
 # 🏗 Project Structure
 
----
 
 /ServiceLifetimeDemo
  ├── Controllers/
