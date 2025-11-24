@@ -10,11 +10,11 @@ This project was created to give learners—whether new developers, students, or
 
 If you’ve ever wondered:
 
-“What’s the real difference between Transient, Scoped, and Singleton?”
+- “What’s the real difference between Transient, Scoped, and Singleton?”
 
-“When should I actually use each one?”
+- “When should I actually use each one?”
 
-“How does .NET Core decide when to create a service instance?”
+- “How does .NET Core decide when to create a service instance?”
 
 This repo breaks it all down step by step, using clean code, simple examples, and an easy-to-follow structure.
 
