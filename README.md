@@ -6,14 +6,14 @@
 
 Welcome!
 
-This project was ***'created to give learners—whether new developers'***, students, or early-career engineers—
+This project wascreated to give learners—whether new developers, students, or early-career engineers—
 
 a clear and practical demonstration of how .NET Core service lifetimes work.
 
 If you’ve ever wondered:
 
-
-- “What’s the real difference between Transient, Scoped, and Singleton?”
+ 
+- “What’s the real difference between  ***'Transient, Scoped, and Singleton'***?”
 
 - “When should I actually use each one?”
 
@@ -73,6 +73,7 @@ In this demo, each service returns a unique GUID so you can visually see which l
  ├── README.md
  └── Dockerfile
 ```
+
 # 🚀 How It Works
 
 Hit this endpoint:
