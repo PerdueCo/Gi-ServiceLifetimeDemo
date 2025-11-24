@@ -34,7 +34,8 @@ Why choosing the correct lifetime matters for performance, correctness, and scal
 
 It's intentionally simple—perfect for interviews, learning sessions, or teaching others.
 
-🧠 High-Level Explanation (Instructor Tone)
+# 🧠 High-Level Explanation (Instructor Tone)
+
 Transient
 
 A brand-new instance is created every time it’s requested.
@@ -55,7 +56,10 @@ Ideal for shared, long-lived resources like caching, configuration, logging, or 
 
 In this demo, each service returns a unique GUID so you can visually see which lifetime persists and which does not.
 
-🏗 Project Structure
+# 🏗 Project Structure
+
+---
+
 /ServiceLifetimeDemo
  ├── Controllers/
  │     └── LifetimeController.cs
