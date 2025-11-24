@@ -77,11 +77,12 @@ In this demo, each service returns a unique GUID so you can visually see which l
 # 🚀 How It Works
 
 Hit this endpoint:
---- 
+
+```
 
 GET /api/lifetime
 
----
+```
 
 You will receive a JSON response showing:
 
