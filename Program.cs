@@ -1,32 +1,3 @@
-//using ServiceLifetimeDemo.Services;
-
-//var builder = WebApplication.CreateBuilder(args);
-
-//// Add services
-//builder.Services.AddControllers();
-//builder.Services.AddEndpointsApiExplorer();
-//builder.Services.AddSwaggerGen();
-
-//// Register concrete services for DI
-//builder.Services.AddTransient<TransientGuidService>();
-//builder.Services.AddScoped<ScopedGuidService>();
-//builder.Services.AddSingleton<SingletonGuidService>();
-
-//var app = builder.Build();
-
-//// Configure middleware
-//if (app.Environment.IsDevelopment())
-//{
-//    app.UseSwagger();
-//    app.UseSwaggerUI();
-//}
-
-//app.UseHttpsRedirection();
-//app.UseAuthorization();
-//app.MapControllers();
-
-//app.Run();
-
 using ServiceLifetimeDemo.Services;
 
 var builder = WebApplication.CreateBuilder(args);
