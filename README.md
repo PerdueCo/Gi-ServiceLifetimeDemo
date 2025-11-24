@@ -1,10 +1,8 @@
 # 📘 README.md — ServiceLifetimeDemo
 
 ***'A beginner-friendly, instructor-style walkthrough of .NET Core service lifetimes.'***
- ***Project Purpose***
 
-ServiceLifetimeDemo
-Understanding Transient, Scoped, and Singleton in a simple, hands-on way
+## Understanding Transient, Scoped, and Singleton in a simple, hands-on way
 
 Welcome!
 This project was created to give learners—whether new developers, students, or early-career engineers—a clear and practical demonstration of how .NET Core service lifetimes work.
