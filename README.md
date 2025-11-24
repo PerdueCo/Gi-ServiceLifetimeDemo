@@ -36,7 +36,7 @@ This project helps you demonstrate your understanding of:
 
 It's intentionally simple—perfect for interviews, learning sessions, or teaching others.
 
-# 🧠 High-Level Explanation (Instructor Tone)
+# 🧠 High-Level Explanation 
 
 ***Transient***
 
