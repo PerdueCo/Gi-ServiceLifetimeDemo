@@ -77,17 +77,19 @@ In this demo, each service returns a unique GUID so you can visually see which l
 # 🚀 How It Works
 
 Hit this endpoint:
+--- 
 
 GET /api/lifetime
 
+---
 
 You will receive a JSON response showing:
 
-- The Transient service returns a new GUID every call
+- The ***Transient service*** returns a new GUID every call
 
-- The Scoped service returns the same GUID within the same request
+- The ***Scoped service*** returns the same GUID within the same request
 
-- The Singleton service returns the same GUID regardless of request
+- The ***Singleton service*** returns the same GUID regardless of request
 
 This lets you instantly see the lifetime differences.
 
