@@ -52,9 +52,9 @@ Great for lightweight, stateless, and short-lived work.
 
 ***Singleton***
 
--- Only one instance is ever created—for the entire application lifetime.
+- Only one instance is ever created—for the entire application lifetime.
 
--- Ideal for shared, long-lived resources like caching, configuration, logging, or static reference data.
+- Ideal for shared, long-lived resources like caching, configuration, logging, or static reference data.
 
 In this demo, each service returns a unique GUID so you can visually see which lifetime persists and which does not.
 
@@ -102,8 +102,11 @@ Open a terminal inside the project folder.
 
 Build the Docker image:
 
+```
+
 docker build -t servicelifetimedemo .
 
+```
 
 Run the container:
 
