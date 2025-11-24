@@ -6,7 +6,7 @@
 
 Welcome!
 
-This project was # created to give learners—whether new developers #, students, or early-career engineers—
+This project was ***'created to give learners—whether new developers'***, students, or early-career engineers—
 
 a clear and practical demonstration of how .NET Core service lifetimes work.
 
@@ -26,13 +26,13 @@ This repo breaks it all down step by step, using clean code, simple examples, an
 This project helps you demonstrate your understanding of:
 
 
-.NET Core Dependency Injection (DI)
+- .NET Core Dependency Injection (DI)
 
-The difference between Transient, Scoped, and Singleton
+- The difference between Transient, Scoped, and Singleton
 
-How instances are created and reused
+- How instances are created and reused
 
-Why choosing the correct lifetime matters for performance, correctness, and scalability
+- Why choosing the correct lifetime matters for performance, correctness, and scalability
 
 It's intentionally simple—perfect for interviews, learning sessions, or teaching others.
 
