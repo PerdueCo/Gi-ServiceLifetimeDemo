@@ -56,7 +56,7 @@ In this demo, each service returns a unique GUID so you can visually see which l
 
 # 🏗 Project Structure
 
-
+```
 /ServiceLifetimeDemo
  ├── Controllers/
  │     └── LifetimeController.cs
@@ -68,6 +68,44 @@ In this demo, each service returns a unique GUID so you can visually see which l
  ├── Program.cs
  ├── README.md
  └── Dockerfile
+```
+# 🚀 How It Works
+
+Hit this endpoint:
+
+GET /api/lifetime
 
 
+You will receive a JSON response showing:
+
+- The Transient service returns a new GUID every call
+
+- The Scoped service returns the same GUID within the same request
+
+- The Singleton service returns the same GUID regardless of request
+
+This lets you instantly see the lifetime differences.
+
+# 🐳 Run in Docker (Beginner-Friendly Instructions)
+
+Make sure Docker Desktop is running.
+
+Open a terminal inside the project folder.
+
+Build the Docker image:
+
+docker build -t servicelifetimedemo .
+
+
+Run the container:
+
+docker run -p 5000:8080 servicelifetimedemo
+
+
+Open your browser and visit:
+
+http://localhost:5000/api/lifetime
+
+
+That’s it. No complicated setup—just build, run, and test.
 Everything is clean, separated, and easy to follow.
