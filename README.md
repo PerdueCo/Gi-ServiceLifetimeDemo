@@ -1,5 +1,5 @@
 # 📘 README.md — ServiceLifetimeDemo
-``` markdown
+
 ***'A beginner-friendly, instructor-style walkthrough of .NET Core service lifetimes.'***
  ***Project Purpose***
 
