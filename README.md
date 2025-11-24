@@ -5,9 +5,13 @@
 ## Understanding Transient, Scoped, and Singleton in a simple, hands-on way
 
 Welcome!
-This project was created to give learners—whether new developers, students, or early-career engineers—a clear and practical demonstration of how .NET Core service lifetimes work.
+
+This project was # created to give learners—whether new developers #, students, or early-career engineers—
+
+a clear and practical demonstration of how .NET Core service lifetimes work.
 
 If you’ve ever wondered:
+
 
 - “What’s the real difference between Transient, Scoped, and Singleton?”
 
@@ -20,6 +24,7 @@ This repo breaks it all down step by step, using clean code, simple examples, an
 # 🎯 Project Purpose
 
 This project helps you demonstrate your understanding of:
+
 
 .NET Core Dependency Injection (DI)
 
