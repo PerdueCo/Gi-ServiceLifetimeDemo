@@ -6,9 +6,9 @@
 
 Welcome!
 
-This project wascreated to give learners—whether new developers, students, or early-career engineers—
+This project wascreated to give learners—whether new developers, students, or early-career engineers
 
-a clear and practical demonstration of how .NET Core service lifetimes work.
+—a clear and practical demonstration of how .NET Core service lifetimes work.
 
 If you’ve ever wondered:
 
@@ -38,19 +38,19 @@ It's intentionally simple—perfect for interviews, learning sessions, or teachi
 
 # 🧠 High-Level Explanation (Instructor Tone)
 
-Transient
+***Transient***
 
 A brand-new instance is created every time it’s requested.
 
 Great for lightweight, stateless, and short-lived work.
 
-Scoped
+***Scoped***
 
 One instance is created per HTTP request.
 
 Commonly used with database repositories, unit-of-work patterns, and request-level state.
 
-Singleton
+***Singleton***
 
 Only one instance is ever created—for the entire application lifetime.
 
