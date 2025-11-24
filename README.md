@@ -1,7 +1,11 @@
 # 📘 README.md — ServiceLifetimeDemo
---- sscs
-"A beginner-friendly, instructor-style walkthrough of .NET Core service lifetimes."
+--- 
+sscs
+## "A beginner-friendly, instructor-style walkthrough of .NET Core service lifetimes." ##
 ---
+
+**This is bold text**
+
 ServiceLifetimeDemo
 Understanding Transient, Scoped, and Singleton in a simple, hands-on way
 
