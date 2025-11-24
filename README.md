@@ -46,9 +46,9 @@ Great for lightweight, stateless, and short-lived work.
 
 ***Scoped***
 
--- One instance is created per HTTP request.
+- One instance is created per HTTP request.
 
--- Commonly used with database repositories, unit-of-work patterns, and request-level state.
+- Commonly used with database repositories, unit-of-work patterns, and request-level state.
 
 ***Singleton***
 
